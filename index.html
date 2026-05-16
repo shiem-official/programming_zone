@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>প্রোগ্রামিং জোন</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+       
+    </style>
+</head>
+
+<body>
+
+    <!-- ===== TOP NOTICE ===== -->
+    <div class="top-notice">
+        <div class="container">
+            <div class="notice-wrapper">
+
+                <div class="notice-badge">
+                    আপডেট
+                </div>
+
+                <div class="notice-marquee">
+                    <div class="notice-text">
+                        📢 নতুন ওয়েব ডিজাইন ব্যাচ শুরু হচ্ছে আগামী শুক্রবার |
+                        📢 ভর্তি চলছে HTML, CSS, Bootstrap ও JavaScript কোর্সে |
+                        📢 এখনই এডমিশন নিন এবং ফ্রি লাইভ ক্লাসে জয়েন করুন |
+                        📢 আজই জয়েন করলে পাচ্ছেন ৩০% ডিস্কাউন্ট |
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== MAIN HEADER ===== -->
+    <header class="main-header">
+
+        <div class="container">
+
+            <nav class="navbar-custom d-flex align-items-center justify-content-between position-relative">
+
+                <!-- Logo -->
+                <a href="#" class="logo">
+                    <span>প্রোগ্রামিং</span> জোন
+                </a>
+
+                <!-- Desktop Nav -->
+                <div class="nav-menu desktop-menu">
+
+                    <a href="#" class="nav-link-custom">হোম</a>
+
+                    <a href="#" class="nav-link-custom">আমাদের সম্পর্কে</a>
+
+                    <a href="#" class="nav-link-custom">শিক্ষা কার্যক্রম</a>
+
+                    <a href="#" class="nav-link-custom">এডমিশন ফর্ম</a>
+
+                    <a href="#" class="nav-link-custom">নোটিস</a>
+
+                    <a href="#" class="nav-link-custom">যোগাযোগ</a>
+
+                </div>
+
+                <!-- Join Button -->
+                <div class="desktop-btn">
+                    <button class="join-btn">
+                        জয়েন করুন
+                    </button>
+                </div>
+
+                <!-- Mobile Toggle -->
+                <button class="mobile-toggle" id="menuToggle">
+                    <i class="bi bi-list"></i>
+                </button>
+
+                <!-- Mobile Menu -->
+                <div class="mobile-menu" id="mobileMenu">
+
+                    <a href="#">হোম</a>
+
+                    <a href="#">আমাদের সম্পর্কে</a>
+
+                    <a href="#">শিক্ষা কার্যক্রম</a>
+
+                    <a href="#">এডমিশন ফর্ম</a>
+
+                    <a href="#">নোটিস</a>
+
+                    <a href="#">যোগাযোগ</a>
+
+                    <button class="join-btn mobile-join">
+                        জয়েন করুন
+                    </button>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ===== HERO SECTION START ===== -->
+<section class="hero-section">
+
+    <div class="container">
+
+        <div class="hero-wrapper">
+
+            <!-- Left Content -->
+            <div class="hero-content">
+
+                <span class="hero-badge">
+                    ✨ আধুনিক প্রোগ্রামিং শিক্ষা প্ল্যাটফর্ম
+                </span>
+
+                <h1>
+                    প্রোগ্রামিং শিখে
+                    <span>তোমার ভবিষ্যৎ</span>
+                    গড়ে তোলো
+                </h1>
+
+                <p>
+                    HTML, CSS, Bootstrap, JavaScript ও আধুনিক ওয়েব
+                    ডেভেলপমেন্ট শিখুন সম্পূর্ণ বাংলায়। প্র্যাকটিক্যাল
+                    প্রজেক্ট ও লাইভ সাপোর্টের মাধ্যমে নিজের স্কিল তৈরি করুন।
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#" class="primary-btn">
+                        কোর্স শুরু করুন
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                    <a href="#" class="secondary-btn">
+                        বিস্তারিত দেখুন
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Right Image -->
+            <div class="hero-image">
+
+                <img src="images/hsc_ict_final.jpg" alt="Programming Zone">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===== ABOUT US SECTION START ===== -->
+<section class="about-section">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+            <!-- Left Image -->
+            <div class="col-lg-6">
+
+                <div class="about-image">
+
+                    <img src="images/profile.jpg" alt="আমাদের সম্পর্কে">
+
+                    <!-- Experience Card -->
+                    <div class="experience-card">
+
+                        <h3>৩+ বছর</h3>
+                        <p>শিক্ষাদানের অভিজ্ঞতা</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Right Content -->
+            <div class="col-lg-6">
+
+                <div class="about-content">
+
+                    <span class="section-badge">
+                        ✨ আমাদের সম্পর্কে
+                    </span>
+
+                    <h2>
+                        দক্ষতা ভিত্তিক
+                        <span>আধুনিক শিক্ষা</span>
+                        প্ল্যাটফর্ম
+                    </h2>
+
+                    <p>
+                        প্রোগ্রামিং জোন একটি আধুনিক বাংলা শিক্ষামূলক প্ল্যাটফর্ম,
+                        যেখানে শিক্ষার্থীদের বাস্তবভিত্তিক ওয়েব ডিজাইন ও
+                        প্রোগ্রামিং শেখানো হয় সহজ ও প্র্যাকটিক্যাল উপায়ে।
+                    </p>
+
+                    <p>
+                        আমাদের লক্ষ্য শুধু কোড শেখানো নয়,
+                        বরং একজন শিক্ষার্থীকে দক্ষ ফ্রিল্যান্সার ও
+                        ক্যারিয়ার-রেডি ডেভেলপার হিসেবে তৈরি করা।
+                    </p>
+
+                    <!-- Features -->
+                    <div class="about-features">
+
+                        <div class="feature-item">
+                            <i class="bi bi-check-circle-fill"></i>
+                            লাইভ প্রজেক্ট ভিত্তিক শিক্ষা
+                        </div>
+
+                        <div class="feature-item">
+                            <i class="bi bi-check-circle-fill"></i>
+                            সহজ বাংলা ভাষায় ক্লাস
+                        </div>
+
+                        <div class="feature-item">
+                            <i class="bi bi-check-circle-fill"></i>
+                            লাইফটাইম সাপোর্ট ও গাইডলাইন
+                        </div>
+
+                        <div class="feature-item">
+                            <i class="bi bi-check-circle-fill"></i>
+                            ফ্রিল্যান্সিং ক্যারিয়ার সহায়তা
+                        </div>
+
+                    </div>
+
+                    <!-- Button -->
+                    <a href="#" class="about-btn">
+                        আরো জানুন
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===== শিক্ষা কার্যক্রম SECTION START ===== -->
+<section class="course-section">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+        <div class="section-title text-center">
+
+            <span class="course-badge">
+                ✨ শিক্ষা কার্যক্রম
+            </span>
+
+            <h2>
+                আমাদের জনপ্রিয়
+                <span>কোর্সসমূহ</span>
+            </h2>
+
+            <p>
+                প্র্যাকটিক্যাল প্রজেক্ট, লাইভ সাপোর্ট এবং সহজ বাংলায়
+                শেখার মাধ্যমে দক্ষতা অর্জন করুন।
+            </p>
+
+        </div>
+
+        <!-- Course Cards -->
+        <div class="row g-4">
+
+            <!-- Course Card -->
+            <div class="col-lg-3 col-md-6">
+
+                <div class="course-card">
+
+                    <!-- Image -->
+                    <div class="course-image">
+
+                        <img src="images/wd.jpg" alt="Web Design">
+
+                    </div>
+
+                    <!-- Content -->
+                    <div class="course-content">
+
+                        <h3>
+                            ওয়েব ডিজাইন কোর্স
+                        </h3>
+
+                        <!-- Key Points -->
+                        <ul class="course-points">
+
+                            <li>
+                                <i class="bi bi-check-circle-fill"></i>
+                                HTML & CSS সম্পূর্ণ শেখানো
+                            </li>
+
+                            <li>
+                                <i class="bi bi-check-circle-fill"></i>
+                                Bootstrap ও Responsive Design
+                            </li>
+
+                            <li>
+                                <i class="bi bi-check-circle-fill"></i>
+                                লাইভ প্রজেক্ট ভিত্তিক ক্লাস
+                            </li>
+
+                        </ul>
+
+                        <!-- Price -->
+                        <div class="course-price">
+
+                            <span>৳ ৩৫০০</span>
+
+                        </div>
+
+                        <!-- Button -->
+                        <a href="#" class="course-btn">
+                            জয়েন করুন
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Course Card -->
+            <div class="col-lg-3 col-md-6">
+
+                <div class="course-card">
+
+                    <div class="course-image">
+
+                        <img src="images/js.jpg" alt="JavaScript">
+
+                    </div>
+
+                    <div class="course-content">
+
+                        <h3>
+                            JavaScript কোর্স
+                        </h3>
+
+                        <ul class="course-points">
+
+                            <li>
+                                <i class="bi bi-check-circle-fill"></i>
+                                Basic থেকে Advanced JavaScript
+                            </li>
+
+                            <li>
+                                <i class="bi bi-check-circle-fill"></i>
+                                DOM & API প্রজেক্ট
+                            </li>
+
+                            <li>
+                                <i class="bi bi-check-circle-fill"></i>
+                                Real Website তৈরির গাইড
+                            </li>
+
+                        </ul>
+
+                        <div class="course-price">
+
+                            <span>৳ ৪৫০০</span>
+
+                        </div>
+
+                        <a href="#" class="course-btn">
+                            জয়েন করুন
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Course Card -->
+            <div class="col-lg-3 col-md-6">
+
+                <div class="course-card">
+
+                    <div class="course-image">
+
+                        <img src="images/bt.jpg" alt="Bootstrap">
+
+                    </div>
+
+                    <div class="course-content">
+
+                        <h3>
+                            Bootstrap কোর্স
+                        </h3>
+
+                        <ul class="course-points">
+
+                            <li>
+                                <i class="bi bi-check-circle-fill"></i>
+                                Responsive Layout Design
+                            </li>
+
+                            <li>
+                                <i class="bi bi-check-circle-fill"></i>
+                                Modern UI তৈরির কৌশল
+                            </li>
+
+                            <li>
+                                <i class="bi bi-check-circle-fill"></i>
+                                Landing Page Project
+                            </li>
+
+                        </ul>
+
+                        <div class="course-price">
+
+                            <span>৳ ২৫০০</span>
+
+                        </div>
+
+                        <a href="#" class="course-btn">
+                            জয়েন করুন
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Course Card -->
+            <div class="col-lg-3 col-md-6">
+
+                <div class="course-card">
+
+                    <div class="course-image">
+
+                        <img src="images/fl.jpg" alt="Freelancing">
+
+                    </div>
+
+                    <div class="course-content">
+
+                        <h3>
+                            ফ্রিল্যান্সিং গাইডলাইন
+                        </h3>
+
+                        <ul class="course-points">
+
+                            <li>
+                                <i class="bi bi-check-circle-fill"></i>
+                                Fiverr ও Upwork গাইড
+                            </li>
+
+                            <li>
+                                <i class="bi bi-check-circle-fill"></i>
+                                Client Communication
+                            </li>
+
+                            <li>
+                                <i class="bi bi-check-circle-fill"></i>
+                                Portfolio তৈরির সহায়তা
+                            </li>
+
+                        </ul>
+
+                        <div class="course-price">
+
+                            <span>৳ ৩০০০</span>
+
+                        </div>
+
+                        <a href="#" class="course-btn">
+                            জয়েন করুন
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===== NOTICE SECTION START ===== -->
+<section class="notice-section">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+        <div class="notice-heading text-center">
+
+            <span class="notice-badge2">
+                ✨ নোটিস বোর্ড
+            </span>
+
+            <h2>
+                গুরুত্বপূর্ণ
+                <span>নোটিস সমূহ</span>
+            </h2>
+
+            <p>
+                ভর্তি, ক্লাস আপডেট ও গুরুত্বপূর্ণ সকল তথ্য এখানে প্রকাশ করা হয়।
+            </p>
+
+        </div>
+
+        <!-- Notice Wrapper -->
+        <div class="notice-wrapper2">
+
+            <!-- Notice Item -->
+            <div class="notice-item">
+
+                <div class="notice-date">
+                    <h3>১২</h3>
+                    <span>মে</span>
+                </div>
+
+                <div class="notice-content">
+
+                    <h4>
+                        নতুন ওয়েব ডিজাইন ব্যাচ শুরু হবে আগামী শুক্রবার
+                    </h4>
+
+                    <p>
+                        নতুন ব্যাচে ভর্তি কার্যক্রম চলমান রয়েছে। আগ্রহীরা দ্রুত যোগাযোগ করুন।
+                    </p>
+
+                </div>
+
+                <a href="#" class="notice-btn">
+                    বিস্তারিত
+                </a>
+
+            </div>
+
+            <!-- Notice Item -->
+            <div class="notice-item">
+
+                <div class="notice-date">
+                    <h3>১৫</h3>
+                    <span>মে</span>
+                </div>
+
+                <div class="notice-content">
+
+                    <h4>
+                        JavaScript লাইভ ক্লাসের সময় পরিবর্তন করা হয়েছে
+                    </h4>
+
+                    <p>
+                        আগামী সপ্তাহ থেকে রাত ৮টার পরিবর্তে রাত ৯টায় ক্লাস অনুষ্ঠিত হবে।
+                    </p>
+
+                </div>
+
+                <a href="#" class="notice-btn">
+                    বিস্তারিত
+                </a>
+
+            </div>
+
+            <!-- Notice Item -->
+            <div class="notice-item">
+
+                <div class="notice-date">
+                    <h3>২০</h3>
+                    <span>মে</span>
+                </div>
+
+                <div class="notice-content">
+
+                    <h4>
+                        Bootstrap কোর্সের নতুন প্রজেক্ট আপলোড করা হয়েছে
+                    </h4>
+
+                    <p>
+                        শিক্ষার্থীরা এখন স্টুডেন্ট প্যানেল থেকে নতুন প্রজেক্ট ডাউনলোড করতে পারবে।
+                    </p>
+
+                </div>
+
+                <a href="#" class="notice-btn">
+                    বিস্তারিত
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ===== NOTICE SECTION END ===== -->
+
+
+<!-- ===== CONTACT SECTION START ===== -->
+<section class="contact-section">
+
+    <div class="container">
+
+        <div class="contact-wrapper">
+
+            <!-- Left Content -->
+            <div class="contact-info">
+
+                <span class="contact-badge">
+                    ✨ যোগাযোগ করুন
+                </span>
+
+                <h2>
+                    আপনার যেকোনো
+                    <span>প্রশ্নের জন্য</span>
+                    যোগাযোগ করুন
+                </h2>
+
+                <p>
+                    ভর্তি, কোর্স অথবা যেকোনো তথ্য জানতে আমাদের সাথে যোগাযোগ করুন।
+                    আমরা দ্রুত আপনার সহায়তা করবো।
+                </p>
+
+                <!-- Contact Items -->
+                <div class="contact-items">
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            <i class="bi bi-telephone-fill"></i>
+                        </div>
+
+                        <div>
+                            <h5>ফোন নাম্বার</h5>
+                            <p>+880 1234-567890</p>
+                        </div>
+
+                    </div>
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            <i class="bi bi-envelope-fill"></i>
+                        </div>
+
+                        <div>
+                            <h5>ইমেইল</h5>
+                            <p>info@programmingzone.com</p>
+                        </div>
+
+                    </div>
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </div>
+
+                        <div>
+                            <h5>ঠিকানা</h5>
+                            <p>ঠাকুরগাঁও, বাংলাদেশ</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Right Form -->
+            <div class="contact-form-box">
+
+                <form>
+
+                    <div class="mb-4">
+
+                        <input type="text" class="form-control custom-input"
+                            placeholder="আপনার নাম">
+
+                    </div>
+
+                    <div class="mb-4">
+
+                        <input type="email" class="form-control custom-input"
+                            placeholder="আপনার ইমেইল">
+
+                    </div>
+
+                    <div class="mb-4">
+
+                        <input type="text" class="form-control custom-input"
+                            placeholder="মোবাইল নাম্বার">
+
+                    </div>
+
+                    <div class="mb-4">
+
+                        <textarea class="form-control custom-input custom-textarea"
+                            placeholder="আপনার মেসেজ"></textarea>
+
+                    </div>
+
+                    <button type="submit" class="contact-btn">
+                        মেসেজ পাঠান
+                        <i class="bi bi-arrow-right"></i>
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ===== CONTACT SECTION END ===== -->
+
+
+<!-- ===== FOOTER SECTION START ===== -->
+<footer class="footer-section">
+
+    <div class="container">
+
+        <!-- Top Footer -->
+        <div class="footer-top">
+
+            <div class="row g-5">
+
+                <!-- About -->
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="footer-about">
+
+                        <a href="#" class="footer-logo">
+                            প্রোগ্রামিং <span>জোন</span>
+                        </a>
+
+                        <p>
+                            সহজ বাংলায় আধুনিক ওয়েব ডিজাইন ও প্রোগ্রামিং শিক্ষা প্রদান করাই
+                            আমাদের লক্ষ্য। প্র্যাকটিক্যাল প্রজেক্ট ও লাইভ সাপোর্টের মাধ্যমে
+                            দক্ষতা অর্জন করুন।
+                        </p>
+
+                        <!-- Social -->
+                        <div class="footer-social">
+
+                            <a href="#">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-6">
+
+                    <div class="footer-links">
+
+                        <h4>দ্রুত লিংক</h4>
+
+                        <ul>
+
+                            <li>
+                                <a href="#">হোম</a>
+                            </li>
+
+                            <li>
+                                <a href="#">আমাদের সম্পর্কে</a>
+                            </li>
+
+                            <li>
+                                <a href="#">শিক্ষা কার্যক্রম</a>
+                            </li>
+
+                            <li>
+                                <a href="#">নোটিস</a>
+                            </li>
+
+                            <li>
+                                <a href="#">যোগাযোগ</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <!-- Courses -->
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="footer-links">
+
+                        <h4>জনপ্রিয় কোর্স</h4>
+
+                        <ul>
+
+                            <li>
+                                <a href="#">ওয়েব ডিজাইন</a>
+                            </li>
+
+                            <li>
+                                <a href="#">JavaScript</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Bootstrap</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Responsive Design</a>
+                            </li>
+
+                            <li>
+                                <a href="#">ফ্রিল্যান্সিং গাইড</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <!-- Contact -->
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="footer-contact">
+
+                        <h4>যোগাযোগ</h4>
+
+                        <div class="footer-contact-item">
+
+                            <i class="bi bi-telephone-fill"></i>
+
+                            <span>
+                                +880 1234-567890
+                            </span>
+
+                        </div>
+
+                        <div class="footer-contact-item">
+
+                            <i class="bi bi-envelope-fill"></i>
+
+                            <span>
+                                info@programmingzone.com
+                            </span>
+
+                        </div>
+
+                        <div class="footer-contact-item">
+
+                            <i class="bi bi-geo-alt-fill"></i>
+
+                            <span>
+                                ঠাকুরগাঁও, বাংলাদেশ
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Bottom Footer -->
+        <div class="footer-bottom">
+
+            <p>
+                © ২০২৬ প্রোগ্রামিং জোন | সর্বস্বত্ব সংরক্ষিত
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+<!-- ===== FOOTER SECTION END ===== -->
+
+    <!-- ===== HERO SECTION ===== -->
+    <!-- <section class="hero">
+
+        <div class="container">
+
+            <h1>
+                প্রোগ্রামিং শিখুন সহজ বাংলায়
+            </h1>
+
+            <p>
+                HTML, CSS, Bootstrap, JavaScript সহ আধুনিক ওয়েব ডিজাইন ও ডেভেলপমেন্ট
+                শিখুন প্র্যাকটিক্যাল প্রজেক্টের মাধ্যমে।
+            </p>
+
+            <button class="join-btn">
+                এখনই ভর্তি হন
+            </button>
+
+        </div>
+
+    </section> -->
+
+<script src="js/script.js"></script>
+    <!-- JS -->
+    <script>
+
+     
+    </script>
+
+</body>
+
+</html>
